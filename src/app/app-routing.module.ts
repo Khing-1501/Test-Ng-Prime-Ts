@@ -14,6 +14,7 @@ const routes: Routes = [
     path: 'post',
     loadChildren: () => import('./post/post.module').then((m) => m.PostModule),
   },
+  { path: 'generatePattern', loadChildren: () => import('./generate-pattern/generate-pattern.module').then(m => m.GeneratePatternModule) },
 ];
 
 @NgModule({

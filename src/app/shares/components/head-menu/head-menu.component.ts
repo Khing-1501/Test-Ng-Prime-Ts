@@ -26,6 +26,11 @@ export class HeadMenuComponent implements OnInit {
         icon: 'pi pi-fw pi-file',
         routerLink: ['/post'],
       },
+      {
+        label: 'generatePattern',
+        icon: 'pi pi-fw pi-file',
+        routerLink: ['/generatePattern'],
+      },
     ];
   }
 }
